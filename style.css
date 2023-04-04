@@ -1,0 +1,150 @@
+ body {
+    background-color: #faf3e2;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+   background: url("https://images.unsplash.com/photo-1658998765621-2cf0f12e059f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=654&q=80");
+   background-size: cover;
+}
+
+
+h1 {
+font-size: 48px;
+}
+
+h1, h2, p {
+    font-family: 'Comfortaa', cursive;
+}
+
+img {
+    border-radius: 250px;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.linkedin-link {
+    background-color: silver;
+    padding: 8px 14px;
+    border-radius: 10px;
+    transition: background .5s;
+    color:white;
+    display: inline-block;
+    margin: 6px;
+
+}
+
+.linkedin-link:hover
+    {   background-color: darkblue;
+        color: white;
+
+}
+
+.bros-pic {
+    border-radius: 400px;
+    margin: 0 auto;
+}
+
+
+li {
+    display: inline-block;
+}
+
+#button {
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.icon {
+    color: darkblue;
+    font-size: 48px;
+
+}
+
+.spaced_socials:not(:last-child) { 
+margin-right: 40px;
+}
+
+.intro {
+    color: black
+}
+
+i:hover {
+    color: grey;
+}
+
+.card { 
+    background-color: whitesmoke;
+    padding: 24px;
+    border-radius: 30px;
+    transition: box-shadow 1s;
+    margin: 48px auto;
+    box-shadow: 0 24px 60px silver;
+}
+
+.card:hover{ 
+    box-shadow: 0 15px 45px #005f73
+}
+
+ .container{
+    width: 700px;
+    margin: 0 auto;
+    
+ }
+
+
+   .icon{
+    color: darkblue;
+    transition: color .5s;
+    display: inline-block;
+   }
+
+   .icon:hover{
+    color: grey;
+   }
+
+
+
+.intro_title0 {
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+
+.intro_title { 
+    font-family: 'Comfortaa', cursive;
+}
+
+p{
+    font-family: 'Nunito', sans-serif;
+}
+
+.social-network{
+    padding: 10px;
+    background-color: whitesmoke;
+    margin: 24px auto; 
+    border-radius: 30px;
+    transition: box-shadow 1s;
+    box-shadow: 0 24px 60px silver;
+}
+
+.social-network:hover{ 
+    box-shadow: 0 15px 45px #005f73
+}
+
+@media (max-width: 900px) {
+    .container {
+    width: 600px;
+    }   
+   }
+   
+   @media (max-width: 600px) {
+       .container {
+       width: 400px;
+       } 
+       .profile-pic {
+        width: 200px
+       }  
+      }
